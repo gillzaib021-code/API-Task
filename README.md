@@ -1,16 +1,35 @@
-# week_4_task
+📱 API Data Fetching App (Flutter)
 
-A new Flutter project.
+This project is a Flutter application that demonstrates how to fetch data from a REST API and display it in a clean and responsive user interface. The app focuses on working with asynchronous programming, JSON parsing, and dynamic UI updates based on live API data.
 
-## Getting Started
+🚀 Features
+Fetch data from REST API
+Display data in list format
+Real-time data loading
+Loading indicator while fetching data
+Error handling for network and API issues
+Refresh data functionality
+🛠️ Technologies Used
+Flutter (UI Toolkit)
+Dart (Programming Language)
+HTTP package (API integration)
+JSON parsing
+⚙️ How It Works
 
-This project is a starting point for a Flutter application.
+The app sends an HTTP request to a REST API, receives data in JSON format, converts it into Dart objects, and displays it on the screen using Flutter widgets. The UI automatically updates when new data is fetched.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📂 Project Structure
+models/ → Data models
+services/ → API calling logic
+screens/ → UI screens
+widgets/ → Reusable components
+main.dart → App entry point
+▶️ Getting Started
+Clone the repository
+git clone https://github.com/gillzaib021-code/API-Task.git
+Go to project folder
+cd API-Task
+Install dependencies
+flutter pub get
+Run the app
+flutter run
